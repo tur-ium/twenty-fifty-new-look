@@ -7,8 +7,8 @@ Front end for [DECC 2050 calculator](https://github.com/decc/twenty-fifty)
 ### Dependencies
 
 * Requires ruby 2.2.2
-~~* Fontcustom has its own dependencies. See
-  [github](https://github.com/FontCustom/fontcustom)~~ <-- TODO: Remove, as no longer maintained
+* ~~Fontcustom has its own dependencies. See [github](https://github.com/FontCustom/fontcustom)~~ 
+<-- TODO: Remove, as no longer maintained
 
 ### Setup
 #### Using Docker on Windows
