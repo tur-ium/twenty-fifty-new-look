@@ -30,6 +30,7 @@ In WSL:
 
 8. Open a web browser and navigate to http://localhost:8080
 
+There may be other ways of setting it up, please let me know if you manage to get them working
 
 ### Building
 
