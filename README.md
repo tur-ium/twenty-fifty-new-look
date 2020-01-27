@@ -15,17 +15,17 @@ Front end for [DECC 2050 calculator](https://github.com/decc/twenty-fifty)
 1. Set up Docker for Windows and configure WSL following this guide: https://nickjanetakis.com/blog/setting-up-docker-for-windows-and-wsl-to-work-flawlessly
 In WSL:
 
-2. git clone https://github.com/tur-ium/twenty-fifty-new-look 
+2. ```git clone https://github.com/tur-ium/twenty-fifty-new-look ```
 
-3. cd twenty-fifty-new-look
+3. ```cd twenty-fifty-new-look```
 
 4. Install Ruby version manager following these instructions https://rvm.io/rvm/install
 
-5. docker image build -t twenty-fifty:1.0 . #This builds the docker image
+5. ```docker image build -t twenty-fifty:1.0 .``` #This builds the docker image
 
-6. docker container run --publish 8080:80 --detach twenty-fifty twenty-fifty:1.0
+6. ```docker container run --publish 8080:80 --detach twenty-fifty twenty-fifty:1.0```
 
-7. Open a web browser and navigate to http://localhost:8080
+7. Open a web browser and navigate to ```http://localhost:8080```
 
 You should see something like this in the browser:
 
