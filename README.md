@@ -23,11 +23,25 @@ In WSL:
 
 5. ```docker image build -t twenty-fifty:1.0 .``` #This builds the docker image
 
-6. ```docker container run --publish 8080:80 --detach twenty-fifty twenty-fifty:1.0```
+6. ```docker container run --publish 8080:80 --detach twenty-fifty:1.0```
 
 7. Open a web browser and navigate to ```http://localhost:8080```
 
-You should see something like this in the browser:
+### Without using Docker
+
+You need hyper virtualization to run Docker on Windows as far as I am aware. Also, Docker is not great for development of the 2050 model, so it is better to install without Docker.
+
+Here is how to install it
+
+1. Install Ruby Version Manager following these instructions: https://rvm.io/rvm/install 
+
+2. `git clone https://github.com/tur-ium/twenty-fifty-new-look/` to download the modified and updated branch of the calculator
+
+3. Run `bundle install`
+
+4. Run `middleman build`
+
+5. Run `bundle exec rackup`
 
 ## Troubleshooting
 
