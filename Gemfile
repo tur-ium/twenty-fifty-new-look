@@ -6,7 +6,7 @@ gem 'sinatra'
 gem "middleman"
 #gem "middleman", "~>3.3.7"
 gem "middleman-livereload"
-# gem 'middleman-imageoptim'
+gem 'middleman-imageoptim', '~> 0.2.0'
 
 # For faster file watcher updates on Windows:
 gem 'wdm', '>= 0.1.0' if Gem.win_platform?
