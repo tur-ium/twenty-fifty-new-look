@@ -20,7 +20,7 @@ Here is how to install it
 3. Run `bundle install`
 4. Run `cd model`
 5. `ruby compile_c_version_of_excel.rb`
-6. cd ..
+6. `cd ..`
 7. `rvm 2.2` to switch to Ruby version 2.2. You may need to download and install this version. Ruby Version Manager will prompt you and suggest instructions when you try running this command
 8. Run `middleman build`
 9. Run `bundle exec rackup`
