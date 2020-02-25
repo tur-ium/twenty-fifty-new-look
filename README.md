@@ -20,8 +20,10 @@ Here is how to install it
 3. Run `bundle install`
 4. Run `cd model`
 5. `ruby compile_c_version_of_excel.rb`
-6. Run `middleman build`
-7. Run `bundle exec rackup`
+6. cd ..
+7. `rvm 2.2` to switch to Ruby version 2.2. You may need to download and install this version. Ruby Version Manager will prompt you and suggest instructions when you try running this command
+8. Run `middleman build`
+9. Run `bundle exec rackup`
 
 ### Using Docker on Windows
 You need hyper virtualization to run Docker on Windows as far as I am aware. Also, Docker is not great for development of the 2050 model, so it is better to install without Docker, but if the above isn't working for you, here is the way I got the calculator running before I worked out how to install it properly.
